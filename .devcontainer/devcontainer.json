@@ -1,0 +1,25 @@
+{
+    "name": "Ubuntu22",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "python.defaultInterpreterPath": "/usr/bin/python3",
+                "autoDocstring.docstringFormat": "sphinx"
+            },
+            "extensions": [
+                "editorconfig.editorconfig",
+                "lextudio.restructuredtext",
+                "tombonnike.vscode-status-bar-format-toggle",
+                "usernamehw.errorlens",
+                "Gruntfuggly.todo-tree",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
