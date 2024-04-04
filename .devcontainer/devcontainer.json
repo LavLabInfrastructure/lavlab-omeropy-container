@@ -1,8 +1,8 @@
 {
     "name": "Ubuntu22",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker": {}
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "customizations": {
         "vscode": {
@@ -18,7 +18,8 @@
                 "usernamehw.errorlens",
                 "Gruntfuggly.todo-tree",
                 "eamodio.gitlens",
-                "github.vscode-github-actions"
+                "github.vscode-github-actions",
+                "ms-azuretools.vscode-docker"
             ]
         }
     },
