@@ -17,7 +17,8 @@
                 "tombonnike.vscode-status-bar-format-toggle",
                 "usernamehw.errorlens",
                 "Gruntfuggly.todo-tree",
-                "eamodio.gitlens"
+                "eamodio.gitlens",
+                "github.vscode-github-actions"
             ]
         }
     },
